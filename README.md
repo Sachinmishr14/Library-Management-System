@@ -23,7 +23,20 @@ This is a Full Stack Development project created for the Datachron Solutions Pri
 
 ## Installation and Setup
 
-### 1. Clone the Repository
+### Clone the Repository
 `bash
 git clone https://github.com/yourusername/library-management-system.git
 cd library-management-system
+
+# Navigate to the project folder
+cd library-management-system
+
+# Set up the backend
+cd backend
+npm install
+node index.js &
+
+# Set up and start the frontend in a new terminal session
+cd ../frontend
+npm install
+npm start
